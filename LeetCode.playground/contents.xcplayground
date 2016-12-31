@@ -3,5 +3,7 @@
     <pages>
         <page name='TwoSum'/>
         <page name='AddTwoSum'/>
+        <page name='longestSubString'/>
+        <page name='MedianOfTwoStortedArray'/>
     </pages>
 </playground>

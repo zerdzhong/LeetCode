@@ -7,5 +7,6 @@
         <page name='MedianOfTwoStortedArray'/>
         <page name='LongestPalindromicSubstring'/>
         <page name='ReverseInteger'/>
+        <page name='StringtoInteger'/>
     </pages>
 </playground>

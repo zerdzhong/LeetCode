@@ -6,5 +6,6 @@
         <page name='longestSubString'/>
         <page name='MedianOfTwoStortedArray'/>
         <page name='LongestPalindromicSubstring'/>
+        <page name='ReverseInteger'/>
     </pages>
 </playground>

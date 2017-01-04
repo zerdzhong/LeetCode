@@ -8,5 +8,6 @@
         <page name='LongestPalindromicSubstring'/>
         <page name='ReverseInteger'/>
         <page name='StringtoInteger'/>
+        <page name='Palindrome Number'/>
     </pages>
 </playground>

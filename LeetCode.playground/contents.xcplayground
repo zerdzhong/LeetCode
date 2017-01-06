@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos'>
     <pages>
-        <page name='TwoSum'/>
-        <page name='AddTwoSum'/>
-        <page name='longestSubString'/>
-        <page name='MedianOfTwoStortedArray'/>
-        <page name='LongestPalindromicSubstring'/>
-        <page name='ReverseInteger'/>
-        <page name='StringtoInteger'/>
-        <page name='Palindrome Number'/>
-        <page name='Container With Most Water'/>
+        <page name='1.Two Sum'/>
+        <page name='2.Add Two Numbers'/>
+        <page name='3.Longest Substring Without Repeating Characters'/>
+        <page name='4.Median of Two Sorted Arrays'/>
+        <page name='5.Longest Palindromic Substring'/>
+        <page name='7.Reverse Integer'/>
+        <page name='8.String to Integer (atoi)'/>
+        <page name='9.Palindrome Number'/>
+        <page name='11.Container With Most Water'/>
     </pages>
 </playground>

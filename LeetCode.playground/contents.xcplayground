@@ -11,5 +11,6 @@
         <page name='9. Palindrome Number'/>
         <page name='11. Container With Most Water'/>
         <page name='14. Longest Common Prefix'/>
+        <page name='12. Integer to Roman'/>
     </pages>
 </playground>

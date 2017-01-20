@@ -14,5 +14,6 @@
         <page name='13. Roman to Integer'/>
         <page name='14. Longest Common Prefix'/>
         <page name='15. 3Sum'/>
+        <page name='16. 3Sum Closest'/>
     </pages>
 </playground>

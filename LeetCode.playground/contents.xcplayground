@@ -17,5 +17,6 @@
         <page name='16. 3Sum Closest'/>
         <page name='17. Letter Combinations of a Phone Number'/>
         <page name='18. 4Sum '/>
+        <page name='19. Remove Nth Node From End of List'/>
     </pages>
 </playground>

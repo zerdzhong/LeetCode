@@ -18,5 +18,6 @@
         <page name='17. Letter Combinations of a Phone Number'/>
         <page name='18. 4Sum '/>
         <page name='19. Remove Nth Node From End of List'/>
+        <page name='20. Valid Parentheses'/>
     </pages>
 </playground>

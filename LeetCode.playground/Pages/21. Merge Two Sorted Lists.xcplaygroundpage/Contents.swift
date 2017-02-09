@@ -56,6 +56,23 @@ class Solution {
         
         return dummyNode.next
     }
+    
+    func mergeTwoLists1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        if l1 == nil {
+            return l2
+        }
+        if l2 == nil {
+            return l1
+        }
+        
+        if l1!.val < l2!.val {
+            l1!.next = mergeTwoLists1(l1!.next, l2)
+            return l1
+        } else {
+            l2!.next = mergeTwoLists1(l1, l2!.next)
+            return l2
+        }
+    }
 }
 
 var list1 = ListNode(1)
@@ -70,6 +87,6 @@ list2.next?.next = ListNode(8)
 
 list2.message()
 
-Solution().mergeTwoLists(list1, list2)?.message()
+Solution().mergeTwoLists1(list1, list2)?.message()
 
 //: [Next](@next)

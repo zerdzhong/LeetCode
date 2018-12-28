@@ -4,4 +4,4 @@ project(LeetCode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(src/1_Two_Sum)
-add_subdirectory(lib3rd/Catch2-2.5.0)
+add_subdirectory(lib3rd/Catch2)

@@ -11,7 +11,7 @@ using namespace std;
 
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
+    int removeDuplicates_1(vector<int>& nums) {
         if (nums.size() < 2) { return static_cast<int>(nums.size()); }
 
         int last_num = 0;
@@ -33,9 +33,30 @@ public:
 
         return static_cast<int>(nums.size());
     }
+
+    int removeDuplicates(vector<int>& nums) {
+        if (nums.size() < 2) { return static_cast<int>(nums.size()); }
+
+        int last_num = nums[0];
+        int duplicate_count = 0;
+
+        for (auto iter = nums.begin() + 1; iter != nums.end(); iter++) {
+            if (*iter == last_num) {
+                duplicate_count ++;
+            } else if (duplicate_count > 0) {
+                *(iter - duplicate_count) = *iter;
+            }
+
+            last_num = *iter;
+        }
+
+        nums.resize(nums.size()-duplicate_count);
+
+        return static_cast<int>(nums.size());
+    }
 };
 
-TEST_CASE("Remove Duplicates from sorted array", "[Basic]") {
+TEST_CASE("Remove Duplicates from sorted array") {
     vector<int> nums = {1, 2, 3};
     auto remove_count = Solution().removeDuplicates(nums);
 

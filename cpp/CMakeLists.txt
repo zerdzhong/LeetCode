@@ -7,4 +7,5 @@ add_subdirectory(lib3rd/Catch2)
 
 add_subdirectory(src/1_Two_Sum)
 add_subdirectory(src/26_Remove_Duplicates_from_Sorted)
+add_subdirectory(src/27_Remove_Element)
 

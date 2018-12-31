@@ -11,7 +11,7 @@ using namespace std;
 
 class Solution {
 public:
-    int strStr(string haystack, string needle) {
+    int strStr_1(string haystack, string needle) {
         if (needle.size() == 0) {
             return  0;
         }
@@ -27,6 +27,25 @@ public:
             } else if (same_length > 0){
                 i = i - same_length;
                 same_length = 0;
+            }
+        }
+
+        return -1;
+    }
+
+    int strStr(string haystack, string needle) {
+        unsigned long needle_length = needle.length();
+
+        if (needle_length == 0) {
+            return  0;
+        }
+
+        char first_char = needle[0];
+        for (int i = 0; i < haystack.length(); ++i) {
+            if (haystack[i] == first_char && haystack.length() - i >= needle_length) {
+                if (!haystack.substr(i, needle_length).compare(needle)) {
+                    return i;
+                }
             }
         }
 

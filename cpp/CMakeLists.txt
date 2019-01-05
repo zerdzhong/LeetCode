@@ -11,4 +11,5 @@ add_subdirectory(problems/27_Remove_Element)
 add_subdirectory(problems/28_Implement_strStr)
 add_subdirectory(problems/33_Search_in_Rotated_Sorted_Array)
 add_subdirectory(problems/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array)
+add_subdirectory(problems/35_Search_Insert_Position)
 

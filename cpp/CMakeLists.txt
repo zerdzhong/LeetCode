@@ -15,4 +15,5 @@ add_subdirectory(problems/35_Search_Insert_Position)
 add_subdirectory(problems/36_Valid_Sudoku)
 add_subdirectory(problems/37_Sudoku_Solver)
 add_subdirectory(problems/38_Count_and_Say)
+add_subdirectory(problems/39_Combination_Sum)
 

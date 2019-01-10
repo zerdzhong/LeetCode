@@ -26,7 +26,7 @@ public:
         return result;
     }
 
-    void dfs(vector<int> candidates, 
+    void dfs(const vector<int> &candidates, 
                 int target, 
                 int level, 
                 vector<vector<int>>& result, 

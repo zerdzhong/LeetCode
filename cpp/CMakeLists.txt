@@ -17,4 +17,5 @@ add_subdirectory(problems/37_Sudoku_Solver)
 add_subdirectory(problems/38_Count_and_Say)
 add_subdirectory(problems/39_Combination_Sum)
 add_subdirectory(problems/40_Combination_Sum_II)
+add_subdirectory(problems/41_First_Missing_Positive)
 

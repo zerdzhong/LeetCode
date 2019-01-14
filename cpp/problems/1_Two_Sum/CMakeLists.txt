@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(Two_Sum)
+project(LeetCode)
 
 add_executable(Two_Sum solution.cpp)
 

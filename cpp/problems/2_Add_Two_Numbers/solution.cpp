@@ -40,7 +40,10 @@ public:
             head->next = new ListNode(sum % 10);
             carry = sum / 10;
 
-            l1 = l1->next; l2 = l2->next; head = head->next;
+            if (l1) l1 = l1->next;
+            if (l2) l2 = l2->next;
+
+            head = head->next;
         }
 
         if (carry > 0) {

@@ -7,6 +7,7 @@ add_subdirectory(lib3rd/Catch2)
 
 add_subdirectory(problems/1_Two_Sum)
 add_subdirectory(problems/2_Add_Two_Numbers)
+add_subdirectory(problems/3_Longest_Substring_Without_Repeating_Characters)
 add_subdirectory(problems/10_Regular_Expression_Matching)
 add_subdirectory(problems/26_Remove_Duplicates_from_Sorted)
 add_subdirectory(problems/27_Remove_Element)

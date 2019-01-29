@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "./cpp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"vector": "cpp",
+			"__config": "cpp",
+			"iosfwd": "cpp",
+			"string": "cpp"
+		}
+	}
+}
